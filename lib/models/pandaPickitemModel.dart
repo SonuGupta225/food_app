@@ -7,6 +7,7 @@ class PandaPickItemModel {
   String totalRating;
   String subTitle;
 
+// Constructor
   PandaPickItemModel(
       {required this.name,
       required this.remainingTime,
