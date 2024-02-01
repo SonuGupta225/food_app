@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
             primaryColor: MyColors.navy,
             brightness: Brightness.light,
             scaffoldBackgroundColor: Color(0xfffcfcfc),
-            appBarTheme:const  AppBarTheme(
+            appBarTheme: const AppBarTheme(
                 backgroundColor: Colors.white,
                 elevation: .2,
                 titleTextStyle:
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
             brightness: Brightness.dark,
             primaryColor: MyColors.navy,
             scaffoldBackgroundColor: Color(0xfffcfcfc),
-            appBarTheme:const  AppBarTheme(
+            appBarTheme: const AppBarTheme(
                 backgroundColor: Colors.white,
                 elevation: .2,
                 titleTextStyle:
@@ -39,6 +39,7 @@ class MyApp extends StatelessWidget {
                 iconTheme: IconThemeData(color: MyColors.primaryColor))),
         home: SplashScreen()
         // WelcomeScreen(),
+        //* Hii Friends
         );
   }
 }
